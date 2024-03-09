@@ -49,8 +49,12 @@ export function SignIn() {
         <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[px] w-full" />
       </form>
 
-      <div className="flex flex-col space-y-4">
-      <Button variant={"link"}>Back to Home page</Button>
+      <div className="flex flex-col space-y-4 items-center">
+        <a href="/">
+        <Button variant={"link"}>Back to Home page</Button>
+        
+        </a>
+     
       </div>
     </div>
   );
