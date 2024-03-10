@@ -14,10 +14,12 @@ export const StickyScroll = ({
   contentClassName,
 }: {
   content: {
+    id: string;
     title: string;
-    description: string;
+    description: JSX.Element | any;
     content?: React.ReactNode | any;
     icon?: JSX.Element | any;
+    link?: string | any;
   }[];
   contentClassName?: string;
 }) => {

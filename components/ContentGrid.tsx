@@ -71,7 +71,7 @@ const SkeletonThree = () => {
 const items = [
   {
     id:"1",
-    title: "Title 1",
+    title: "Superteam 3. Mini Hackathon",
     description: (
       <span className="text-sm">
         Get AI-powered suggestions based on your writing context.
@@ -80,11 +80,11 @@ const items = [
     header: <SkeletonThree />,
     className: "md:col-span-1",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-    link: "http://localhost:3000/explore/1",
+    link: "explore/1",
   },
   {
     id:"2",
-    title: "Title 2",
+    title: "FıratBlockchain Elazığ Etkinliği",
     description: (
       <span className="text-sm">
         Get AI-powered suggestions based on your writing context.
@@ -93,11 +93,11 @@ const items = [
     header: <SkeletonThree />,
     className: "md:col-span-1",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-    link: "http://localhost:3000/explore/second",
+    link: "explore/2",
   },
   {
     id:"3",
-    title: "Title 3",
+    title: "Solana CrossroadsS",
     description: (
       <span className="text-sm">
         Get AI-powered suggestions based on your writing context.
@@ -106,79 +106,7 @@ const items = [
     header: <SkeletonThree />,
     className: "md:col-span-1",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-    link: "http://localhost:3000/recreation",
+    link: "explore/3",
   },
-  {
-    title: "Contextual Suggestions",
-    description: (
-      <span className="text-sm">
-        Get AI-powered suggestions based on your writing context.
-      </span>
-    ),
-    header: <SkeletonThree />,
-    className: "md:col-span-1",
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-    link: "http://localhost:3000/recreation",
-  },
-  {
-    title: "Contextual Suggestions",
-    description: (
-      <span className="text-sm">
-        Get AI-powered suggestions based on your writing context.
-      </span>
-    ),
-    header: <SkeletonThree />,
-    className: "md:col-span-1",
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-    link: "http://localhost:3000/recreation",
-  },
-  {
-    title: "Contextual Suggestions",
-    description: (
-      <span className="text-sm">
-        Get AI-powered suggestions based on your writing context.
-      </span>
-    ),
-    header: <SkeletonThree />,
-    className: "md:col-span-1",
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-    link: "http://localhost:3000/recreation",
-  },
-  {
-    title: "Contextual Suggestions",
-    description: (
-      <span className="text-sm">
-        Get AI-powered suggestions based on your writing context.
-      </span>
-    ),
-    header: <SkeletonThree />,
-    className: "md:col-span-1",
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-    link: "http://localhost:3000/recreation",
-  },
-
-  {
-    title: "Contextual Suggestions",
-    description: (
-      <span className="text-sm">
-        Get AI-powered suggestions based on your writing context.
-      </span>
-    ),
-    header: <SkeletonThree />,
-    className: "md:col-span-1",
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-    link: "http://localhost:3000/recreation",
-  },
-  {
-    title: "Contextual Suggestions",
-    description: (
-      <span className="text-sm">
-        Get AI-powered suggestions based on your writing context.
-      </span>
-    ),
-    header: <SkeletonThree />,
-    className: "md:col-span-1",
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-    link: "http://localhost:3000/recreation",
-  },
+ 
 ];

@@ -6,7 +6,6 @@ import React from 'react'
 const page = () => (
   <div>
     <Navbar />
-    <h1>Explore page</h1>
     <ContentGrid/>
    
   </div>
