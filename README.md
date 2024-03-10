@@ -1,3 +1,6 @@
+# We3in
+Welcome to We3in, the next-generation loyalty program redefining customer engagement and brand loyalty through innovative Event Loyalty rewards.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -28,6 +31,19 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+
+About We3in
+We3in is a loyalty program built on .NET API and anchored smart contracts, enabling seamless communication between businesses and consumers. Our unique approach, Event Loyalty, ensures personalized and timely rewards triggered by specific user interactions.
+
+## Features
+- Event-driven Rewards: Reward users based on specific events, fostering personalized interactions.
+- Real-time Tracking: Track user interactions in real-time to deliver timely incentives.
+- User-friendly Interface: Intuitive interface for businesses to create and manage Event Loyalty campaigns.
+- Secure Communication: .NET API integration ensures secure and seamless communication between front-end and smart contracts.
+
+## Vision
+- We3in aims to revolutionize loyalty programs by introducing dynamic, transparent, and rewarding experiences for both businesses and consumers. Our vision is to redefine loyalty in the digital age, driving mutual growth and fostering long-term relationships.
 
 ## Deploy on Vercel
 
