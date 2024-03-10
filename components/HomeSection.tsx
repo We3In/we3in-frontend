@@ -12,7 +12,7 @@ export function HomeSection() {
           WELCOME TO WE3IN*
         </p>
         <p className="pt-4 tracking-wider w-72 text-center md:w-96 lg:w-full">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, id.
+         we3in is event based loyalty app.
         </p>
         <div className="flex gap-4">
           <Button className="mt-4" variant={"default"}>
