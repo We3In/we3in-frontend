@@ -15,7 +15,7 @@ import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 
 export function ContentGrid() {
   return (
-    <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem] pb-10">
+    <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem] pb-10 pt-24">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -30,12 +30,6 @@ export function ContentGrid() {
     </BentoGrid>
   );
 }
-const Skeleton = () => (
-  <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl   dark:bg-dot-white/[0.2] bg-dot-black/[0.2] [mask-image:radial-gradient(ellipse_at_center,white,transparent)]  border border-transparent dark:border-white/[0.2] bg-neutral-100 dark:bg-black">
-    
-  </div>
-);
-
 
 const SkeletonThree = () => {
   const variants = {
@@ -70,8 +64,8 @@ const SkeletonThree = () => {
 
 const items = [
   {
-    id:"1",
-    title: "Title 1",
+    id: "1",
+    title: "SuperTeam 3. Mini Hackaton!",
     description: (
       <span className="text-sm">
         Get AI-powered suggestions based on your writing context.
@@ -83,7 +77,7 @@ const items = [
     link: "http://localhost:3000/explore/1",
   },
   {
-    id:"2",
+    id: "2",
     title: "Title 2",
     description: (
       <span className="text-sm">
@@ -96,7 +90,7 @@ const items = [
     link: "http://localhost:3000/explore/second",
   },
   {
-    id:"3",
+    id: "3",
     title: "Title 3",
     description: (
       <span className="text-sm">
