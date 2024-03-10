@@ -70,7 +70,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative rounded-full boder border-transparent bg-background dark:border-white/[0.2]  shadow-input flex justify-center space-x-4 px-8 py-3 "
+      className="relative rounded-full boder border-transparent bg-neutral-800 bg-opacity-55 backdrop-blur-md dark:border-white/[0.5]  shadow-input flex justify-center space-x-4 px-8 py-3 "
     >
       {children}
     </nav>
@@ -98,9 +98,7 @@ export const ProductItem = ({
         className="flex-shrink-0 rounded-md shadow-2xl"
       />
       <div>
-        <h4 className="text-xl font-bold mb-1 text-pri">
-          {title}
-        </h4>
+        <h4 className="text-xl font-bold mb-1 text-pri">{title}</h4>
         <p className="text-neutral-700 text-sm max-w-[10rem] text-primary">
           {description}
         </p>
@@ -113,7 +111,7 @@ export const HoveredLink = ({ children, ...rest }: any) => {
   return (
     <Link
       {...rest}
-      className="text-neutral-700 text-primary hover:text-black "
+      className="text-neutral-700 text-primary hover:text-black dark:hover:text-neutral-500 "
     >
       {children}
     </Link>
